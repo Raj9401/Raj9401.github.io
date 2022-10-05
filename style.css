@@ -1,0 +1,427 @@
+* {
+    margin: 0%;
+    box-sizing:border-box
+}
+
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+
+section{
+    height: 500px;
+    border: 1px solid black;
+    background-color: white;
+    background-size: cover;
+}
+
+.main{
+    background-image: url('./images/bg.jpeg');
+    height: 100vh;
+}
+
+.top-nav{
+    overflow: hidden;
+    
+}
+
+.top-nav a{
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;    
+    text-shadow: 
+        0 1px 0px #0cf,
+        0 5px 10px #0cf,
+        0 10px 15px rgb(255, 234, 0),
+        0 1px 0 rgb(184, 0, 204),
+        0 0 20px rgb(255, 197, 5);
+}
+
+#right{
+    position: relative;
+    float: right;
+    padding-right: 20px;
+}
+
+.logo{
+    float: left;
+}
+
+h1{ 
+    font-size: 60px;
+    margin:0;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    margin:0;
+}
+
+#webp{
+    text-align: left;
+}
+
+.name{
+    margin:0;
+    color: #fff;
+    text-shadow:
+    0 0 5px #25d7fb,
+    0 0 10px #25d7fb,
+    0 0 15px #25d7fb,
+    0 0 20px #25d7fb,
+    0 0 25px #25d7fb,
+    0 0 30px #25d7fb;
+    margin-left: 70px;
+    margin-top: 250px;
+}
+
+#abouth2{
+    padding-top: 100px;;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    text-shadow:
+    0 0 5px #25d7fb,
+    0 0 10px #25d7fb,
+    0 0 15px #25d7fb,
+    0 0 20px #25d7fb,
+    0 0 25px #25d7fb,
+    0 0 30px #25d7fb;
+    
+}
+
+.about{
+    height: 101vh;
+}
+
+
+h2{
+    padding-top: 100px;;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+#aboutme{
+    font-size: 25px;
+    padding: 50px 40% 10px 90px ;
+}
+
+.aside{
+    padding-top: 70px;
+    margin-right: 20px;
+    float:right;
+}
+
+#aboutBtn{
+    margin-left:31%;
+    margin-top: 10%;
+    background-color: #05a0fd;
+    filter: drop-shadow(2px 2px 3px #0003);
+    color: #fff;
+    font-size: clamp(16px, 1.6vw, 18px);
+    display: block;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.projects{
+    height: 100vh;
+}
+
+#h1p{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    text-shadow:
+    0 0 5px #25d7fb,
+    0 0 10px #25d7fb,
+    0 0 15px #25d7fb,
+    0 0 20px #25d7fb,
+    0 0 25px #25d7fb,
+    0 0 30px #25d7fb;
+
+}
+
+.projects>div{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    margin-left: 12%;
+}
+
+
+.skillsContainer{
+    height:100vh;    
+    background-image: url('./images/bg3.PNG');    
+    
+}
+
+
+.container {
+    position:absolute;
+    width: 40%;       
+    background-color: #ddd; 
+    
+}
+
+.skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: #fff; 
+    
+
+}
+.html-box{
+    margin: 30px;
+    padding-bottom: 10px;
+    width:40%;
+}
+
+.html {
+    width: 95%; 
+    background-color: #0cf;
+}
+
+.css{
+    width: 95%;
+    background-color: #0cf;
+}
+
+.js{
+    background-color: #0cf;
+    width: 80%;
+}
+
+.vue{
+    background-color: #0cf;
+    width: 90%;
+}
+
+.react{
+    background-color: #0cf;
+    width: 75%;
+}
+
+.node{
+    background-color: #0cf;
+    width: 85%;
+}
+
+.php{
+    background-color: #0cf;
+    width: 85%;
+}
+
+.python{
+    background-color: #0cf;
+    width: 90%;
+}
+
+.p-text{
+    text-align: left;
+    font-size: 30px;
+    color: #fff;
+}
+
+footer{
+    margin:0;
+}
+
+#contact {
+  background-color: #6a9ac4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./images/bg2.jpg');;
+}
+
+.contact-box {
+  width: clamp(150px, 90%, 1000px);
+  margin: 25%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact-links, .contact-form-wrapper {
+  width: 50%;
+  padding: 8% 5% 10% 5%;
+}
+
+
+.contact-links {
+  background-color: #1f2e43;
+  border-radius: 10px 0 0 10px;
+}
+
+.contact-form-wrapper {
+  background-color: #ffffff8f;
+  border-radius: 0 10px 10px 0;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-links, .contact-form-wrapper {
+    width: 100%;
+  }
+  
+  .contact-links {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .contact-form-wrapper {
+    border-radius: 0 0 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .contact-box {
+    width: 95%;
+    margin: 8% 5%;
+  }
+}
+
+#h2 {
+  font-family: 'Arimo', sans-serif;
+  color: #fff;
+  text-shadow:
+    0 0 5px #25d7fb,
+    0 0 10px #25d7fb,
+    0 0 15px #25d7fb,
+    0 0 20px #25d7fb,
+    0 0 25px #25d7fb,
+    0 0 30px #25d7fb;
+  font-size: clamp(30px, 6vw, 60px);
+  letter-spacing: 2px;
+  text-align: center;
+  transform: scale(.95, 1);
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.link {
+  margin: 10px;
+  cursor: pointer;
+}
+
+a > img {
+  width: 45px;
+  height: 45px;
+  filter: 
+    hue-rotate(220deg)
+    drop-shadow(2px 4px 4px #0006);
+  transition: 0.2s;
+  user-select: none;
+}
+
+a > img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+a > img:active {
+  transform: scale(1.1, 1.1);
+  filter: 
+    hue-rotate(220deg)
+    drop-shadow(2px 4px 4px #222)
+    sepia(0.3);
+}
+
+.form-item {
+  position: relative;
+}
+
+label, input, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+label {
+  position: absolute;
+  top: 10px;
+  left: 2%;
+  color: #999;
+  font-size: clamp(14px, 1.5vw, 18px);
+  pointer-events: none;
+  user-select: none;
+}
+
+input, textarea {
+  width: 100%;
+  outline: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  padding: 12px;
+  font-size: clamp(15px, 1.5vw, 18px);
+}
+
+input:focus+label, 
+input:valid+label, 
+textarea:focus+label, 
+textarea:valid+label {
+  font-size: clamp(13px, 1.3vw, 16px);
+  color: #777;
+  top: -20px;
+  transition: all .225s ease;
+}
+
+.submit-btn {
+  background-color: #05a0fd;
+  filter: drop-shadow(2px 2px 3px #0003);
+  color: #fff;
+  font-size: clamp(16px, 1.6vw, 18px);
+  display: block;
+  padding: 12px 20px;
+  margin: 2px auto;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.submit-btn:active {
+  transform: scale(1.1, 1.1);
+  filter: sepia(0.5);
+}
+
+@media only screen and (max-width: 800px) {
+  #h2 {
+    font-size: clamp(40px, 10vw, 60px);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #h2 {
+    font-size: clamp(30px, 12vw, 60px);
+  }
+}
