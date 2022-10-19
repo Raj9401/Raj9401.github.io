@@ -82,12 +82,12 @@ p{
     margin:0;
     color: #fff;
     text-shadow:
-    0 0 5px #25d7fb,
-    0 0 10px #25d7fb,
-    0 0 15px #25d7fb,
-    0 0 20px #25d7fb,
-    0 0 25px #25d7fb,
-    0 0 30px #25d7fb;
+    0 0 5px #47B5FF,
+    0 0 10px #47B5FF,
+    0 0 15px #47B5FF,
+    0 0 20px #47B5FF,
+    0 0 25px #47B5FF,
+    0 0 30px #47B5FF;
     margin-left: 70px;
     margin-top: 250px;
 }
@@ -98,26 +98,18 @@ p{
     font-size: 50px;
     color: #fff;
     text-shadow:
-    0 0 5px #25d7fb,
-    0 0 10px #25d7fb,
-    0 0 15px #25d7fb,
-    0 0 20px #25d7fb,
-    0 0 25px #25d7fb,
-    0 0 30px #25d7fb;
+    0 0 5px #47B5FF,
+    0 0 10px #47B5FF,
+    0 0 15px #47B5FF,
+    0 0 20px #47B5FF,
+    0 0 25px #47B5FF,
+    0 0 30px #47B5FF;
     
 }
 
 .about{
     height: 101vh;
 }
-
-
-h2{
-    padding-top: 100px;;
-    text-align: center;
-    font-size: 40px;
-}
-
 
 
 #aboutme{
@@ -147,6 +139,7 @@ h2{
 
 .projects{
     height: 100vh;
+    box-sizing: border-box;
 }
 
 #h1p{
@@ -154,28 +147,64 @@ h2{
     margin-top: 30px;
     color: #fff;
     text-shadow:
-    0 0 5px #25d7fb,
-    0 0 10px #25d7fb,
-    0 0 15px #25d7fb,
-    0 0 20px #25d7fb,
-    0 0 25px #25d7fb,
-    0 0 30px #25d7fb;
+    0 0 5px #47B5FF,
+    0 0 10px #47B5FF,
+    0 0 15px #47B5FF,
+    0 0 20px #47B5FF,
+    0 0 25px #47B5FF,
+    0 0 30px #47B5FF;
 
 }
 
-.projects>div{
-    display: inline-block;
-    text-align: center;
-    padding: 20px;
-    margin-left: 12%;
+#projects-h2{
+  background-color: #DFF6FF;
 }
 
+.flex-container-main {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 50px;
+  
+}
+.flex-project1>p{
+  background-color: #DFF6FF;
+  font-size: 20px;
+}
+.flex-project1 {
+  background-image: url(./images/pic.jpeg);
+  flex: 40%;
+  margin: 50px;
+  height: 350px;
+}
 
+.flex-project2 {
+  background-color: #DFF6FF;
+  flex: 40%;
+  margin: 50px;
+}
+
+@media (max-width: 800px) {
+  .flex-container-main {
+    flex-direction: column;
+    font-size: 10px;
+  }
+}
 .skillsContainer{
     height:100vh;    
-    background-image: url('./images/bg3.PNG');    
+    background-image: linear-gradient(to right, #06283D , #256D85);;    
     
 }
+
+#mainSkills{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-child {
+  flex: 1;
+}
+
 
 
 .container {
@@ -201,41 +230,41 @@ h2{
 
 .html {
     width: 95%; 
-    background-color: #0cf;
+    background-color: #47B5FF;
 }
 
 .css{
     width: 95%;
-    background-color: #0cf;
+    background-color: #47B5FF;
 }
 
 .js{
-    background-color: #0cf;
+    background-color: #47B5FF;
     width: 80%;
 }
 
 .vue{
-    background-color: #0cf;
+    background-color: #47B5FF;
     width: 90%;
 }
 
 .react{
-    background-color: #0cf;
+    background-color: #47B5FF;
     width: 75%;
 }
 
 .node{
-    background-color: #0cf;
+    background-color: #47B5FF;
     width: 85%;
 }
 
 .php{
-    background-color: #0cf;
+    background-color: #47B5FF;
     width: 85%;
 }
 
 .python{
-    background-color: #0cf;
+    background-color: #47B5FF;
     width: 90%;
 }
 
@@ -306,12 +335,12 @@ footer{
   font-family: 'Arimo', sans-serif;
   color: #fff;
   text-shadow:
-    0 0 5px #25d7fb,
-    0 0 10px #25d7fb,
-    0 0 15px #25d7fb,
-    0 0 20px #25d7fb,
-    0 0 25px #25d7fb,
-    0 0 30px #25d7fb;
+    0 0 5px #47B5FF,
+    0 0 10px #47B5FF,
+    0 0 15px #47B5FF,
+    0 0 20px #47B5FF,
+    0 0 25px #47B5FF,
+    0 0 30px #47B5FF;
   font-size: clamp(30px, 6vw, 60px);
   letter-spacing: 2px;
   text-align: center;
